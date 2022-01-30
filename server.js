@@ -16,4 +16,4 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://127.0.0.1/friends-r-us', 
 
 mongoose.set('debug', true);
 
-app.listen(PORT, () => console.log(`Connectec on localhost: ${PORT}`));
+app.listen(PORT, () => console.log(`Connected on localhost: ${PORT}`));
